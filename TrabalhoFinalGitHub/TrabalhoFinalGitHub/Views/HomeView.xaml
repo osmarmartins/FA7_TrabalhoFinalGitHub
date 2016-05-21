@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFinalGitHub.Views.HomeView">
+  <ContentPage.Content>
+    <StackLayout Padding="30" VerticalOptions="Start" HorizontalOptions="Center">
+      <Label Text="Home" VerticalOptions="Center" HorizontalOptions="Center" Font="24"/>
+      <Button x:Name="btnCadastrar" Text="Cadastrar Usuario" Clicked="CadastrarUsuario"/>
+      <Button x:Name="btnProjetos" Text="Relação de Projetos por Usuario" Clicked="ListarProjetos"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,4 @@
+TrabalhoFinalGitHub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  TrabalhoFinalGitHub.Views.UsuarioCadastroView.xaml
+  TrabalhoFinalGitHub.Views.HomeView.xaml
+  TrabalhoFinalGitHub.Views.UsuarioProjetosView.xaml

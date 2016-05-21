@@ -1,0 +1,2 @@
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub.UWP\TrabalhoFinalGitHub.UWP.csproj;x86
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub.csproj;neutral

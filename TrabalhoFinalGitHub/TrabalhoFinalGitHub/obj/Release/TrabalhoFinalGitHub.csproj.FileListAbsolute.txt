@@ -1,0 +1,16 @@
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\TrabalhoFinalGitHub.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\TrabalhoFinalGitHub.pdb
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Newtonsoft.Json.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\SQLite.Net.Async.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\SQLite.Net.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Xamarin.Forms.Core.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Xamarin.Forms.Platform.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Xamarin.Forms.Xaml.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Newtonsoft.Json.xml
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Xamarin.Forms.Core.xml
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Release\Xamarin.Forms.Xaml.xml
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\obj\Release\TrabalhoFinalGitHub.Views.UsuarioCadastroView.xaml.g.cs
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\obj\Release\TrabalhoFinalGitHub.Views.HomeView.xaml.g.cs
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\obj\Release\TrabalhoFinalGitHub.Views.UsuarioProjetosView.xaml.g.cs
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\obj\Release\TrabalhoFinalGitHub.dll
+D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\obj\Release\TrabalhoFinalGitHub.pdb
