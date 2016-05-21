@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-21T22:41:26.742</Modified>
+      <Modified>2016-05-21T23:16:09.949</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub.UWP\bin\x86\Debug\TrabalhoFinalGitHub.UWP.exe">
       <PackagePath>entrypoint\TrabalhoFinalGitHub.UWP.exe</PackagePath>
-      <Modified>2016-05-21T22:41:25.960</Modified>
+      <Modified>2016-05-21T23:16:09.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Osmar\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -476,7 +476,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub\bin\Debug\TrabalhoFinalGitHub.dll">
       <PackagePath>TrabalhoFinalGitHub.dll</PackagePath>
-      <Modified>2016-05-21T22:41:24.526</Modified>
+      <Modified>2016-05-21T23:16:08.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.13.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -542,7 +542,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FA7\PPP-I CSharp\TrabalhoFinalGitHub\TrabalhoFinalGitHub\TrabalhoFinalGitHub.UWP\bin\x86\Debug\Core\TrabalhoFinalGitHub.UWP.exe">
       <PackagePath>TrabalhoFinalGitHub.UWP.exe</PackagePath>
-      <Modified>2016-05-21T22:41:26.579</Modified>
+      <Modified>2016-05-21T23:16:09.946</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

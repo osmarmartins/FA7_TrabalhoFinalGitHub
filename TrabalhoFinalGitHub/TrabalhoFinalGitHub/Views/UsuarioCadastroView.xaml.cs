@@ -17,7 +17,14 @@ namespace TrabalhoFinalGitHub.Views
 
         private void UsuarioCadastroView_Appearing(object sender, System.EventArgs e)
         {
-            this.BindingContext = new ViewModels.UsuarioViewModel();
+            try
+            {
+                this.BindingContext = new ViewModels.UsuarioViewModel();
+            }
+            catch (System.Exception)
+            {
+                DisplayAlert("Alerta", "Não existe usuários cadastrados", "Ok");
+            }
         }
 
         private void TxtUsuario_TextChanged(object sender, TextChangedEventArgs e)

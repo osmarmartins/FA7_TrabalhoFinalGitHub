@@ -28,7 +28,7 @@ namespace TrabalhoFinalGitHub.ViewModels
                 App app = Application.Current as App;
 
                 UsuarioModel usuarioModel = new UsuarioModel();
-                usuarioModel.Id = 0; // Autoincrement no tabela
+                usuarioModel.Id = 0; // Autoincrement na tabela
                 usuarioModel.Nome = app.NovoUsuario;
             
                 new UsuarioDao().InsertUsuario(usuarioModel);

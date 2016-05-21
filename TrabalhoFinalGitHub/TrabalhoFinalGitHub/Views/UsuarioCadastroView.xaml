@@ -5,7 +5,7 @@
   <ContentPage.Content>
     <StackLayout Padding="30" VerticalOptions="Center" HorizontalOptions="Center">
       <Label Text="Cadastro de Usuario" VerticalOptions="Center" HorizontalOptions="Center" Font="24"/>
-      <Entry x:Name="txtUsuario" Placeholder="Usuario do GitHub" Text="{Binding Nome}"/>
+      <Entry x:Name="txtUsuario" Placeholder="Usuario do GitHub"/>
       <Button x:Name="btnSalvar" Text="Salvar" Command="{Binding SalvarUsuario}"/>
 
         <ListView x:Name="listaUsuarios" ItemsSource="{Binding Usuarios}">
