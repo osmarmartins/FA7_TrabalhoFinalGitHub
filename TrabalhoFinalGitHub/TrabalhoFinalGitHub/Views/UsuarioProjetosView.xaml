@@ -3,11 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrabalhoFinalGitHub.Views.UsuarioProjetosView">
   <ContentPage.Content>
-    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Vertical" Padding="30">
       <Label Text="Projetos por Usuário" VerticalOptions="Center" HorizontalOptions="Center" Font="24"/>
 
-      <StackLayout Padding="30" VerticalOptions="StartAndExpand">
-        <ListView x:Name="listViewUsuarios" ItemsSource="{Binding Usuarios}">
+        <ListView x:Name="listViewUsuarios" ItemsSource="{Binding Usuarios}" BackgroundColor="Silver">
           <ListView.ItemTemplate>
             <DataTemplate>
               <TextCell Text="{Binding Nome}"/>
@@ -15,9 +14,9 @@
           </ListView.ItemTemplate>
         </ListView>
 
-        <ListView x:Name="repositories"/>
-
-      </StackLayout>
+        <Label Text="Repositorios" Font="20"/>
+      
+        <ListView x:Name="repositories" BackgroundColor="Silver"/>
 
     </StackLayout>
   </ContentPage.Content>

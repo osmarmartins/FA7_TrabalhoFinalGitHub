@@ -2,10 +2,11 @@
 using System.Windows.Input;
 using TrabalhoFinalGitHub.Daos;
 using TrabalhoFinalGitHub.Models;
+using Xamarin.Forms;
 
 namespace TrabalhoFinalGitHub.ViewModels
 {
-    class UsuarioViewModel
+    public class UsuarioViewModel
     {
         public ICommand SalvarUsuario { get; set; }
 
@@ -24,9 +25,11 @@ namespace TrabalhoFinalGitHub.ViewModels
 
             SalvarUsuario = new Xamarin.Forms.Command(() =>
             {
+                App app = Application.Current as App;
+
                 UsuarioModel usuarioModel = new UsuarioModel();
                 usuarioModel.Id = 0; // Autoincrement no tabela
-                usuarioModel.Nome = "IMPLEMENTAR...";
+                usuarioModel.Nome = app.NovoUsuario;
             
                 new UsuarioDao().InsertUsuario(usuarioModel);
                 Usuarios.Add(usuarioModel);

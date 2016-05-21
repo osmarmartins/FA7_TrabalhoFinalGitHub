@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TrabalhoFinalGitHub.Models;
 using TrabalhoFinalGitHub.Daos;
 
@@ -42,5 +38,6 @@ namespace TrabalhoFinalGitHub.Views
             usuarioDao.UpdateUsuario(usuario);
             await DisplayAlert("Informação", "Usuário alterado com sucesso!", "Ok");
         }
+
     }
 }

@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace TrabalhoFinalGitHub
 {
     public class App : Application
     {
+        public string NovoUsuario { get; set; }
+
         public App()
         {
             // The root page of your application

@@ -26,8 +26,6 @@ namespace TrabalhoFinalGitHub.Utilities
                 if (response.IsSuccessStatusCode)
                 {
                     var jsonRepositories = JArray.Parse(await response.Content.ReadAsStringAsync());
-                    repositories.Add("RELAÇÃO DE PROJETOS");
-                    repositories.Add("===================");
 
                     foreach (var repository in jsonRepositories)
                     {

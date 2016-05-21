@@ -9,15 +9,26 @@ namespace TrabalhoFinalGitHub.Views
         public UsuarioCadastroView()
         {
             InitializeComponent();
-            this.BindingContext = new ViewModels.UsuarioViewModel();
-
             this.listaUsuarios.ItemTapped += ListaUsuarios_ItemTapped;
+            this.txtUsuario.TextChanged += TxtUsuario_TextChanged;
+            this.Appearing += UsuarioCadastroView_Appearing;
 
+        }
+
+        private void UsuarioCadastroView_Appearing(object sender, System.EventArgs e)
+        {
+            this.BindingContext = new ViewModels.UsuarioViewModel();
+        }
+
+        private void TxtUsuario_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            App app = Application.Current as App;
+            app.NovoUsuario = txtUsuario.Text;
         }
 
         private async void ListaUsuarios_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            await Navigation.PushAsync(new Views.UsuarioAlterarExcluirView((Models.UsuarioModel) e.Item));
+            await Navigation.PushModalAsync(new Views.UsuarioAlterarExcluirView((Models.UsuarioModel) e.Item));
         }
     }
 }
